@@ -1,0 +1,175 @@
+.big-cont {
+  @include grid2();
+}
+
+.left-nav {
+  background-color: $microverse;
+  width: 21%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+}
+
+.main-body {
+  width: 100%;
+  background-color: $mainbg;
+  margin-left: 19.1rem;
+}
+
+.logo {
+  @include bigbody(center); 
+}
+
+.logo-image {
+  width: 7rem;
+  height: 4rem;
+}
+
+.hom {
+  margin: 0 2rem;
+}
+
+.heade {
+  @include bigbody(); 
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 0 15px 0 rgba(154,161,171,.15);
+  background-color: $white;
+  height: 4rem;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.dash {
+  width: 95%;
+}
+
+.power {
+  width: 2.5%;
+}
+
+.arrow {
+  width: 2.5%;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.linkyy {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.heade a {
+  @extend .linkyy;
+  color: $microverse;
+}
+
+.welcome {
+  background-color: $bbgreen;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.common {
+  background-color: $white;
+  border-radius: 1rem;
+  margin: 2rem 2rem;
+}
+
+.myss {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  @extend .common;
+}
+
+.hours1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: $microverse;
+}
+
+.hours {
+  text-align: center;
+  align-items: center;
+}
+
+.prog {
+  background-color: $white;
+  @extend .common;
+  padding: 1rem 1rem;
+}
+
+.prog-bar {
+  height: 1.5rem;
+  background-color: $progress;
+  border-radius: 1rem;
+}
+
+.table-h {
+  @include common22(inherit)
+}
+
+.table-head {
+  height: 3rem;
+  align-items: center;
+  background: $bbgreen;
+  margin: 0 2rem;
+}
+
+.main-table {
+  height: 14.6rem;
+  margin: 0 2rem 2rem 2rem;
+  background-color: $white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 0 15px 0 rgba(154,161,171,.15);
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.control-div {
+  width: 100%;
+  padding-right: 25rem;
+  @include common22(inherit)
+}
+
+.\date-wek {
+  width: 10%;
+}
+
+.controls {
+  width: 30%;
+ 
+}
+
+.dswek {
+  background-color: $blue;
+  margin-left: 2rem;
+  width: 10rem;
+  color: $white;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.arows {
+ width: 3rem;
+ color: $white;
+ background-color: $blue;
+ border: none;
+}
+
+.last-due {
+  margin: 2rem 0 0 20rem;
+}
