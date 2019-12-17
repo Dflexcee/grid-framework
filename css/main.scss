@@ -1,0 +1,31 @@
+@import "colors";
+@import "mixin";
+@import "my-grid";
+@import "reset";
+@import "classes";
+
+.myprogress {
+  @include grid();
+}
+
+.pass-due {
+  @include due();
+}
+
+.date-head {
+  @include personal();
+}
+
+.due {
+  display: grid;
+  grid-template-columns: 2fr;
+  @include personal($white);
+}
+
+.bb1 {
+  @include due($blue);
+}
+
+.mainggg {
+  @include grid();
+}

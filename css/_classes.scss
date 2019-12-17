@@ -1,0 +1,61 @@
+.big-cont {
+  @include grid2();
+}
+
+.left-nav {
+  background-color: $microverse;
+  width: 21%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+}
+
+.main-body {
+  width: 100%;
+  background-color: $mainbg;
+  margin-left: 20rem;
+}
+
+.logo {
+  @include bigbody(center);
+}
+
+.logo-image {
+  width: 7rem;
+  height: 4rem;
+}
+
+.hom {
+  margin: 0 2rem;
+}
+
+.heade {
+  @include bigbody(); 
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 0 15px 0 rgba(154,161,171,.15);
+  background-color: $white;
+  height: 4rem;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.dash {
+  width: 95%;
+}
+
+.power {
+  width: 2.5%;
+}
+
+.arrow {
+  width: 2.5%;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.linkyy {
+  text-decoration: none;
+  font-weight: lighter;

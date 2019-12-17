@@ -1,0 +1,34 @@
+@mixin due($bg:  $yellow) {
+  background-color: $bg;
+  border-radius: 0.6rem;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 6rem;
+  color: $white;
+  border: none;
+}
+    
+@mixin personal($bg2: $bbgreen) {
+  background-color: $bg2;
+  width: 10rem;
+  height: 6rem;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  box-shadow: 0 0 15px 0 rgba(154,161,171,.15);
+}
+
+ @mixin bigbody($direction: space-between) {
+  display: flex;
+  justify-content: $direction;
+}
+
+@mixin common22($bgg: $white) {
+  background-color: $bgg;
+  border-radius: 1rem;
+  margin: 2rem 2rem;
+}
+
