@@ -9,7 +9,4 @@ files:
        - 'css/_my-grid.scss'
        - 'css/_mixin.scss'
        - 'css/main.scss'
-        - 'css/reset.scss'
-   
-fixers:
-    enable: true
+       - 'css/_reset.scss'
