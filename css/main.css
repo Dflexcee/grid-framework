@@ -33,7 +33,7 @@ ul {
 }
 
 .left-nav {
-  background-color: #6D2EFD;
+  background-color: #6d2efd;
   width: 21%;
   position: fixed;
   overflow-y: scroll;
@@ -99,14 +99,15 @@ ul {
   font-weight: bold;
 }
 
-.linkyy, .heade a {
+.linkyy, 
+.heade a {
   text-decoration: none;
   font-weight: lighter;
   font-size: 1rem;
 }
 
 .heade a {
-  color: #6D2EFD;
+  color: #6d2efd;
 }
 
 .welcome {
@@ -115,7 +116,9 @@ ul {
   padding: 1rem;
 }
 
-.common, .myss, .prog {
+.common, 
+.myss, 
+.prog {
   background-color: white;
   border-radius: 1rem;
   margin: 2rem 2rem;
@@ -132,7 +135,7 @@ ul {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
-  color: #6D2EFD;
+  color: #6d2efd;
 }
 
 .hours {
@@ -182,7 +185,8 @@ table {
   margin-bottom: 2rem;
 }
 
-th, td {
+th, 
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
