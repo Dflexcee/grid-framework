@@ -4,11 +4,12 @@ linters:
     config: 'stylelint.config.js'
 files:
     ignore:
-       - 'styles/_classes.scss'
-       - 'styles/_colors.scss'
-       - 'styles/_grid.scss'
-       - 'styles/_mixins.scss'
-       - 'styles/main.scss'
+       - 'css/_classes.scss'
+       - 'css/_colors.scss'
+       - 'css/_my-grid.scss'
+       - 'css/_mixin.scss'
+       - 'css/main.scss'
+        - 'css/reset.scss'
    
 fixers:
     enable: true
