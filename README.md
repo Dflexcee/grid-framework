@@ -1,50 +1,18 @@
-<!-- PROJECT LOGO -->
-![Screenshot Image](images/Screenshot-apple-page.png)
+# Project Title
+#### Input-Form
 
-<br />
-<p align="center">
-   <h3 align="center">Apple Page</h3>
+### Authors:
+[FLEXCEE](https://github.com/Dflexcee/)  Please for now i do not have a partiner, 
+i was instructed by student success 
+to continue to go with 
+my project while i wait for new partner
 
-  <p align="center">
-    A simple clone of the Apple Page.
-    <br />    
-    <br />
-    ·
-     <a href="https://rawcdn.githack.com/WCanirinka/Apple-page/7fdbb68d6f2739d76ca982219ab01f428b7280c5/index.html">View Demo</a>
-    ·    
-  </p>
-</p>
+## Live Project:
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+### Link to the Assignment:
+[CLICK HERE](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+### LIVE SCREENSHOT OF MY PROJECT
 
+![Untitled](![1](https://user-images.githubusercontent.com/53564831/68049344-e1cfc380-fc9f-11e9-969d-dde7ebfd698a.jpg)
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-  I am Wilfried Canirinka. I am part of the Microverse Project and I did this page according to the required specifications.  
-
-
-### Build With
-
-* [Html]()
-* [CSS]()
-* [VSCODE]()
-
-
-### Contact
-* Wilfried - [@WCanirinka](https://twitter.com/WCanirinka)  - [LinkedIn](https://www.linkedin.com/in/wilfried-canirinka-884ab0b6/) - [GitHub](https://github.com/WCanirinka)
-* Project Link [https://github.com/genzaraki/new-york-times-article-page](https://wcanirinka.github.io/Apple-page/)
-
-### Acknowledgements
-
-* [GitHub](https://github.com)
-* [VSCODE]()
-* [StyleLint]()
-* [Stickler]()
